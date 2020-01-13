@@ -37,5 +37,5 @@ public String pigLatin(String sWord)
 	if(findFirstVowel(sWord) > 0) 
 		return sWord.substring(findFirstVowel(sWord)) + sWord.substring(0, findFirstVowel(sWord)) + "ay";
 	
-	return "ERROR";
+	return "ERROR!";
 }
